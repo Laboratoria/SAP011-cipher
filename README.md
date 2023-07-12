@@ -419,11 +419,12 @@ Participe do canal Slack
 [#project-cipher](https://claseslaboratoria.slack.com/archives/C03LJSH6R7D)
 para conversar e pedir ajuda no projeto.
 
-A seguir um vídeo que mostra a fórmula matemática de Cifra de César mais
-algumas coisas que você precisa saber para resolver este projeto.
-A fórmula não é o importante do projeto, não se engane.
+A seguir um vídeo do Daniel que te ajudará a entender a fórmula matemática usada
+pela Cifra de César e algumas coisas mais que deve saber para resolver o seu
+projeto. Escute com atenção e siga seus conselhos ! :)
 
-[![Getting started cipher](https://img.youtube.com/vi/uehgMrP6few/0.jpg)](https://youtu.be/uehgMrP6few)
+[![Dicas Cifra de
+César](https://img.youtube.com/vi/utiLWBXmNQU/0.jpg)](https://www.youtube.com/watch?v=utiLWBXmNQU)
 
 Desenvolvimento Front-end:
 
@@ -433,6 +434,7 @@ Desenvolvimento Front-end:
   `String.fromCharCode()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 * [Aprenda mais sobre
   `ASCII`](https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm)
+* [Documentação do NPM](https://docs.npmjs.com/)
 * Saiba mais sobre [objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
   e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
 
