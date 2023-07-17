@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Gerenciador de senhas</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <p>LAST PASS</p>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li>Password Generator</li>
+      <li>Unmask Password</li>
+      <li>Password Manager</li>
+      <li>My Account</li>
+    </ul>
+  </nav>
+  <main>
+    <h2>PASSWORD GENERATOR</h2>
+    <div class="passwordContainer">
+      <!--não esquecer de inserir um valor para o atributo ACTION da tag form
+      O Backand tem que estar preparado para receber um POST-->
+      <form method="post" action="">
+        <label for="msg">senha:</label>
+        <textarea class="msg" name="message"></textarea>
+        <label for="msg">nova senha:</label>
+        <textarea class="msg" name="message"></textarea>
+        <br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    <h2>UNMASK PASSWORD</h2>
+    <div class="passwordContainer">
+      <form>
+        <label for="msg">senha:</label>
+        <textarea class="msg" name="message"></textarea>
+        <label for="msg">nova senha:</label>
+        <textarea class="msg" name="message"></textarea>
+        <br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </main>
+  <footer>
+    <!--terms de use, e-mail da empresa, número para contato-->
+  </footer>
+  <script src="index.js" type="module"></script>
+
 </html>
