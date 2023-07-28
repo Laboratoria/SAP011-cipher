@@ -4,64 +4,123 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, sans-serif;
+body {
+    height: 100vh;
+    font-family: cursive;
     margin: 0;
     padding: 0;
-    background-color: snow;
+    background-color: rgb(2, 2, 83);
+    background-image: url("./image/bandeiras.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#logoContainer{
-width: 55px;  
-height: 110px;
-background-color: black;
-position: absolute;
-right: 0px;
-top: 0px;
-/*colocar a div para o lado direito*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
 }
 
-#logo{
-   color:white;
-   text-align:center;
-
+#logoContainer {
+    width: 33%;
+    height: 300px;
+    background-color: rgb(227, 99, 14);
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.529);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-#menu{
-width: 1315px;
-height: 110px;
-box-sizing: border-box;
-background-color: rgb(220, 220, 220);
-list-style: none;
-padding: 0;
-text-align: center;
-position: absolute;
-top: 0px;
-}
-
-li{
-   background-color: white;
-   margin: 20px;
-   padding: 10px;
-   border-radius: 5px;
-   float: right;
-}
-
-h2{
- color: gray;
-}
-
-.passwordContainer{
-    width: 500px;
-    height: 250px;
-    background-color: gray;
-    margin-left: auto;
-    margin-right: auto;
+#logo {
+    display: flex;
+    position: relative;
+    color: rgb(242, 242, 208);
     text-align: center;
-    
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
-.padlock{
-    width: 40px;
-    height: 30px;
+.menuItem {
+    display: flex;
+    position: relative;
+    color: rgb(242, 242, 208);
+    padding: 15px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    list-style: none;
+    justify-content: center;
+    float: left;
+    background-color: rgba(146, 63, 8, 0.8);
+}
+
+
+#containerCifrar {
+    width: 33%;
+    height: 250px;
+    background-color: rgb(227, 99, 14);
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.529);
+    margin: 25px auto;
+    padding: 25px;
+}
+
+#containerDecifrar {
+    width: 33%;
+    height: 250px;
+    background-color: rgb(227, 99, 14);
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.396);
+    margin: 25px auto;
+    padding: 25px;
+
+
+}
+
+.messageContainer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: end;
+}
+
+label {
+    color: rgb(242, 242, 208);
+    /* font-family: "times new roman"; */
+}
+
+.msg {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(227, 99, 14);
+}
+
+#number{
+    width: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+
+}
+
+#desloc{
+    width: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.button{
+    width: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
 }

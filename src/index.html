@@ -8,54 +8,30 @@
 </head>
 
 <body>
+
   <header>
-    <div id="logoContainer">
-      <p id="logo"><b>LAST PASS</b></p>
-    </div>
+    <!--imagem com bandeiras-->
+    <!--imagem do céu de fundo-->
   </header>
-  <nav>
-    <ul id="menu">
-      <li>My Account</li>
-      <li>Password Manager</li>
-      <li>Unmask Password</li>
-      <li>Password Generator</li>
-    </ul>
-  </nav>
+
   <main>
-    <h2>PASSWORD GENERATOR</h2>
-    <div class="passwordContainer">
-      <!--não esquecer de inserir um valor para o atributo ACTION da tag form
-      O Backand tem que estar preparado para receber um POST method-->
-      <form action="">
-        <label for="msg">senha:</label>
-        <input type="text" id="conteudo" class="msg">
-        <br>
-        <label for="msg">nova senha:</label>
-        <input type="text" id="cifrar" class="msg">
-        <img alt="lockedPadlock" src="./image/Padlock.png" class="padlock">
-        <br>
-        <input type="reset" value="Limpar">
-        <input type="submit" id="submit" value="Enviar">
-      </form>
-    </div>
-    <h2>UNMASK PASSWORD</h2>
-    <div class="passwordContainer">
-      <form action="">
-        <label for="msg">senha:</label>
-        <input type="text" id="senha" class="msg">
-        <br>
-        <label for="msg">decifrada:</label>
-        <input type="text" id="decifrar" class="msg">
-        <img alt="openPadlock" src="./image/openPadlock.png" class="padlock">
-        <br>
-        <input type="reset" value="Limpar">
-        <input type="submit" id="send" value="Enviar">
-      </form>
+    <div id="logoContainer">
+      <h2 id="logo"><b>CORREIO ELEGANTE VIRTUAL</b></h2>
+      <ul id="menu">
+        <li><a href="message.html" class="menuItem">CIFRAR</a></li>
+        <li><a href="message.html"class="menuItem">DECIFRAR</a></li>
+      </ul>
     </div>
   </main>
-  <footer>
-    <!--terms de use, e-mail da empresa, número para contato-->
-  </footer>
+    <!-- <nav> 
+    </nav> -->
+  <!-- <footer>
+    imagem de cerca
+    <img src="./image/cerca.avif" alt="cerca" class="cerca">
+  </footer> -->
+  <!-- <script src="cipher.js" tyle="module"></script> -->
   <script src="index.js" type="module"></script>
+  
+</body>
 
 </html>
