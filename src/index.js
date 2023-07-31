@@ -1,12 +1,12 @@
-import cipher from './cipher.js';
+import cipher from './cipher.js'
 
-console.log(cipher);
+// console.log(cipher)
 
 //Passando valores de um campo input para outro input
 
 //Cifrar ids: conteudo, cifrar, submit, number
 
-const bottonSubmit = document.querySelector("#submit");
+const bottonSubmit = document.querySelector("#submit")
 
 bottonSubmit.addEventListener("click", function (e) {
 
