@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <main>
+    <div id="containerDecifrar">
+      <div class="messageContainer">
+        <form action="">
+          <label for="msg" id="msg">Mensagem:</label><br>
+          <input type="text" id="message" class="msg">
+          <br>
+          <label for="msgDecod" id="msgDecod">Mensagem decodificada:</label><br>
+          <input type="text" id="decifrar" class="msg">
+          <br>
+          <input type="number" min="0" id="desloc">
+          <input type="reset" value="Limpar" class="button">
+          <input type="submit" id="send" value="Enviar" class="button">
+          <button class="backToMenu"><a href="index.html" class="link">Voltar ao menu</a></button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="decode.js" type="module"></script>
+
+</body>
+
+</html>

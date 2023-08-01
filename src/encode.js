@@ -1,7 +1,5 @@
 import cipher from './cipher.js'
 
-// console.log(cipher)
-
 //Passando valores de um campo input para outro input
 
 //Cifrar ids: conteudo, cifrar, submit, number
@@ -20,21 +18,6 @@ bottonSubmit.addEventListener("click", function (e) {
   cifrar.value = mensagemCodificada
 })
 
-// Decifrar ids: message, decifrar, send, desloc
-
-const bottonSend = document.querySelector("#send")
-
-bottonSend.addEventListener("click", function (e) {
-
-  e.preventDefault() //paralisa o envio do formulário 
-
-  const message = document.querySelector("#message")
-  const decifrar = document.querySelector("#decifrar")
-  const deslocDecode = document.querySelector("#desloc")
-  const mensagemDecodificada = cipher.decode(Number(deslocDecode.value), message.value.toUpperCase())
-
-  decifrar.value = mensagemDecodificada //letras minúsculas em maiúsculas
-})
 
 
 
