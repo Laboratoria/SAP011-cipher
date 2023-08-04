@@ -88,8 +88,9 @@ Na página inicial haverá um menu, no qual é possível escolher entre as opç�
 
    - Caso queira limpar os campos escolhidos, aperte o botão limpar e, se deseja retornar ao menu clique no botão *'voltar ao menu'*.
 
+<p align="center">
 <img src="./src/image/correioElegante.gif">
-
+</p>
 
 ## 5. Tecnologias utilizadas
 
