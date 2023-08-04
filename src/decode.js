@@ -11,7 +11,7 @@ bottonSend.addEventListener("click", function (e) {
   const message = document.querySelector("#message")
   const decifrar = document.querySelector("#decifrar")
   const deslocDecode = document.querySelector("#desloc")
-  const mensagemDecodificada = cipher.decode(Number(deslocDecode.value), message.value.toUpperCase())
+  const mensagemDecodificada = cipher.decode(Number(deslocDecode.value), message.value.toUpperCase()) //letras minúsculas em maiúsculas
 
-  decifrar.value = mensagemDecodificada //letras minúsculas em maiúsculas
+  decifrar.value = mensagemDecodificada 
 })

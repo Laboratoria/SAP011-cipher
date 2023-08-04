@@ -9,7 +9,7 @@ const cipher = {
     if (typeof conteudo !== 'string') {
       throw new TypeError("O conteúdo precisa ser uma string")
     }
-
+      
     let textoCodificado = ""
     for (let i = 0; i < conteudo.length; i++) {
       const codigoASC = conteudo.charCodeAt(i);
