@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <main>
+    <div id="containerCifrar">
+      <!--caixa de mensagem-->
+      <div class="messageContainer">
+        <!--não esquecer de inserir um valor para o atributo ACTION da tag form
+            O Backend tem que estar preparado para receber um POST method-->
+        <form action="">
+          <label for="message" id="message">Mensagem:</label><br>
+          <input type="text" id="conteudo" class="msg">
+          <br>
+          <label for="msgCod" id="msgCod">Mensagem codificada:</label><br>
+          <input type="text" id="cifrar" class="msg">
+          <br>
+          <input type="number" min="0" id="number">
+          <input type="reset" value="Limpar" class="button">
+          <input type="submit" id="submit" value="Enviar" class="button">
+          <button class="backToMenu"><a href="index.html" class="link">Voltar ao menu</a></button>
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="encode.js" type="module"></script>
+
+</body>
+
+</html>
