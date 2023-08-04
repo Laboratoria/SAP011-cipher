@@ -52,7 +52,7 @@ Então pensando nisso, foi desenvolvida uma aplicação web que permite **codifi
 * Para aqueles que estão apaixonados, durante a época de festa junina, pode acessar a aplicação para criar uma mensagem segura e anônima para enviar a outra pessoa.
 * O destinatário também pode utilizar a aplicação para descobrir o teor da mensagem que recebeu do seu remetente.
 
-### Para acessar o projeto clique aqui
+### Para acessar o projeto [clique aqui](https://belatenorio.github.io/belatenorio.gitgub.io/)
 
 ## 3. Considerações gerais
 
